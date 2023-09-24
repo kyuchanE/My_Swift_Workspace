@@ -17,6 +17,10 @@
 		E806D2FE2AAD974F002344DF /* my_swift_workspaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806D2FD2AAD974F002344DF /* my_swift_workspaceUITests.swift */; };
 		E806D3002AAD974F002344DF /* my_swift_workspaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806D2FF2AAD974F002344DF /* my_swift_workspaceUITestsLaunchTests.swift */; };
 		E806D30E2AAD9C0C002344DF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E806D30D2AAD9C0C002344DF /* SnapKit */; };
+		E839D2F52AAF55D50067EC9C /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839D2F42AAF55D40067EC9C /* MyTableViewController.swift */; };
+		E839D2F72AAF56320067EC9C /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839D2F62AAF56320067EC9C /* MyTableViewCell.swift */; };
+		E839D2F92AAF59AF0067EC9C /* invalid_name.png in Resources */ = {isa = PBXBuildFile; fileRef = E839D2F82AAF59AF0067EC9C /* invalid_name.png */; };
+		E839D2FD2ABA3A630067EC9C /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839D2FC2ABA3A630067EC9C /* EmptyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		E806D2F92AAD974F002344DF /* my_swift_workspaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = my_swift_workspaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E806D2FD2AAD974F002344DF /* my_swift_workspaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_swift_workspaceUITests.swift; sourceTree = "<group>"; };
 		E806D2FF2AAD974F002344DF /* my_swift_workspaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_swift_workspaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E839D2F42AAF55D40067EC9C /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		E839D2F62AAF56320067EC9C /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		E839D2F82AAF59AF0067EC9C /* invalid_name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invalid_name.png; sourceTree = "<group>"; };
+		E839D2FC2ABA3A630067EC9C /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		E806D2DB2AAD974D002344DF /* my_swift_workspace */ = {
 			isa = PBXGroup;
 			children = (
+				E839D2F82AAF59AF0067EC9C /* invalid_name.png */,
 				E806D2DC2AAD974D002344DF /* AppDelegate.swift */,
 				E806D2DE2AAD974D002344DF /* SceneDelegate.swift */,
 				E806D2E02AAD974D002344DF /* ViewController.swift */,
@@ -108,6 +117,9 @@
 				E806D2E52AAD974F002344DF /* Assets.xcassets */,
 				E806D2E72AAD974F002344DF /* LaunchScreen.storyboard */,
 				E806D2EA2AAD974F002344DF /* Info.plist */,
+				E839D2F42AAF55D40067EC9C /* MyTableViewController.swift */,
+				E839D2F62AAF56320067EC9C /* MyTableViewCell.swift */,
+				E839D2FC2ABA3A630067EC9C /* EmptyViewController.swift */,
 			);
 			path = my_swift_workspace;
 			sourceTree = "<group>";
@@ -241,6 +253,7 @@
 			files = (
 				E806D2E92AAD974F002344DF /* LaunchScreen.storyboard in Resources */,
 				E806D2E62AAD974F002344DF /* Assets.xcassets in Resources */,
+				E839D2F92AAF59AF0067EC9C /* invalid_name.png in Resources */,
 				E806D2E42AAD974D002344DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,9 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E839D2FD2ABA3A630067EC9C /* EmptyViewController.swift in Sources */,
 				E806D2E12AAD974D002344DF /* ViewController.swift in Sources */,
 				E806D2DD2AAD974D002344DF /* AppDelegate.swift in Sources */,
 				E806D2DF2AAD974D002344DF /* SceneDelegate.swift in Sources */,
+				E839D2F72AAF56320067EC9C /* MyTableViewCell.swift in Sources */,
+				E839D2F52AAF55D50067EC9C /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
